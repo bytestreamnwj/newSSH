@@ -47,6 +47,7 @@ public class Order implements Serializable{
 	}
 	@Override
 	public String toString() {
+		System.out.println("git远程仓库推送");
 		return "Order [id=" + id + ", name=" + name + ", money=" + money + ", remark=" + remark + "]";
 	}
 	
